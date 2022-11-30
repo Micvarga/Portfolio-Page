@@ -5,8 +5,11 @@
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scss": "node-sass -o styles/ styles/",
+    "start": "npm run watch:all",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:scss": "onchange \"styles/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
   "author": "Michael A. Vargas",
   "license": "ISC",
@@ -14,7 +17,7 @@
     "copyfiles": "^2.4.1",
     "imagemin-cli": "^7.0.0",
     "onchange": "^7.1.0",
-    "parallelshell": "3.0.2",
+    "parallelshell": "3.0.1",
     "rimraf": "^3.0.2",
     "usemin-cli": "^0.6.0"
   },
