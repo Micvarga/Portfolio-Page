@@ -63,3 +63,13 @@
   margin: 0;
   padding: 0;
   list-style: none; }
+
+.resume-item {
+  padding-top: .5rem;
+  padding-bottom: .5rem; }
+
+.section-title h2 {
+  text-align: center; }
+
+.resume-title {
+  text-decoration: underline; }
