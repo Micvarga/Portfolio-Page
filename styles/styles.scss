@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-#header {
+.offcanvas {
     position: fixed;
     left: 0;
     top: 0;
@@ -15,7 +15,7 @@
     overflow-y: auto;
 }
 
-#header {
+.offcanvas {
     .profile {
         img {
             margin: 15px auto;

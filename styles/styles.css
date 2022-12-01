@@ -3,7 +3,7 @@
 ::before {
   box-sizing: border-box; }
 
-#header {
+.offcanvas {
   position: fixed;
   left: 0;
   top: 0;
@@ -13,20 +13,20 @@
   background: #040b14;
   overflow-y: auto; }
 
-#header .profile img {
+.offcanvas .profile img {
   margin: 15px auto;
   display: block;
   width: 120px;
   height: auto;
   border: 8px solid #2c2f3f; }
 
-#header .profile h1 {
+.offcanvas .profile h1 {
   font-size: 24px;
   margin: 0;
   padding: 0;
   font-weight: 600;
   text-align-last: center; }
-  #header .profile h1 a {
+  .offcanvas .profile h1 a {
     color: #fff;
     text-decoration: none; }
 
