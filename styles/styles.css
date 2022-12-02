@@ -120,3 +120,11 @@ u {
 
 #contact p {
   font-family: "Noto Sans", sans-serif; }
+
+#bx-bx-plus {
+  margin-left: auto;
+  margin-right: 0; }
+
+#navbarClose {
+  color: #fff;
+  font-size: x-large; }
