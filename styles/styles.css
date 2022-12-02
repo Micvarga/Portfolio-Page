@@ -1,7 +1,5 @@
-*,
-::after,
-::before {
-  box-sizing: border-box; }
+u {
+  text-decoration-color: #149ddd; }
 
 .offcanvas {
   position: fixed;
@@ -69,7 +67,56 @@
   padding-bottom: .5rem; }
 
 .section-title h2 {
-  text-align: center; }
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  color: #d00000; }
 
 .resume-title {
   text-decoration: underline; }
+
+#skills {
+  background: #ced4da; }
+
+#portfolio {
+  background: #ced4da; }
+
+#aboutPhoto {
+  margin: 15px auto;
+  display: block;
+  width: 400px;
+  height: auto;
+  border: 8px solid #ced4da; }
+
+#about h3 {
+  font-family: "Raleway", sans-serif; }
+
+#about p {
+  font-family: "Noto Sans", sans-serif; }
+
+#about ul {
+  font-family: "Noto Sans", sans-serif; }
+
+#skills h3 {
+  font-family: "Raleway", sans-serif; }
+
+#skills p {
+  font-family: "Noto Sans", sans-serif; }
+
+#resume h3 {
+  font-family: "Raleway", sans-serif; }
+
+#resume .resume-item {
+  font-family: "Poppins", sans-serif; }
+
+#portfolio h3 {
+  font-family: "Raleway", sans-serif; }
+
+#portfolio p {
+  font-family: "Noto Sans", sans-serif; }
+
+#contact h3 {
+  font-family: "Raleway", sans-serif; }
+
+#contact p {
+  font-family: "Noto Sans", sans-serif; }

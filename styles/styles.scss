@@ -1,7 +1,9 @@
-*,
-::after,
-::before {
-    box-sizing: border-box;
+$title-font: "Raleway", sans-serif;
+$resume-font: "Poppins", sans-serif;
+$content-font: "Noto Sans", sans-serif;
+
+u {
+    text-decoration-color: #149ddd;
 }
 
 .offcanvas {
@@ -95,9 +97,82 @@
 .section-title {
     h2 {
         text-align: center;
+        font-family: $title-font;
+        font-weight: 800;
+        color: #d00000;
     }
 }
 
 .resume-title {
     text-decoration: underline;
+}
+
+#skills {
+    background: #ced4da;
+}
+
+#portfolio {
+    background: #ced4da;
+}
+
+#aboutPhoto {
+    margin: 15px auto;
+    display: block;
+    width: 400px;
+    height: auto;
+    border: 8px solid #ced4da;
+}
+
+#about {
+    h3 {
+        font-family: $title-font;
+    }
+
+    p {
+        font-family: $content-font;
+    }
+
+    ul {
+        font-family: $content-font;
+    }
+}
+
+#skills {
+    h3 {
+        font-family: $title-font;
+    }
+
+    p {
+        font-family: $content-font;
+    }
+}
+
+#resume {
+    h3 {
+        font-family: $title-font;
+    }
+
+    .resume-item {
+        font-family: $resume-font;
+    }
+}
+
+#portfolio {
+    h3 {
+        font-family: $title-font;
+    }
+
+    p {
+        font-family: $content-font;
+    }
+}
+
+#contact {
+    h3 {
+        font-family: $title-font;
+    }
+
+    p {
+        font-family: $content-font;
+    }
 }
