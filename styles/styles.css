@@ -156,3 +156,7 @@ u {
     padding-top: 15%;
     font-family: "Raleway", sans-serif;
     font-weight: 700; }
+
+#navButton {
+  background-color: #149ddd;
+  border-radius: 50%; }
