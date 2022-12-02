@@ -143,3 +143,16 @@ u {
 .modal-header,
 .modal-footer {
   background-color: #ced4da; }
+
+#hero {
+  height: 1100px;
+  width: auto;
+  background-image: url("/images/tacomaselfie.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  #hero h1 {
+    text-align: center;
+    padding-top: 15%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700; }
