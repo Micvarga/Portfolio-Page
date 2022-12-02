@@ -128,3 +128,18 @@ u {
 #navbarClose {
   color: #fff;
   font-size: x-large; }
+
+.modal-title {
+  font-family: "Raleway", sans-serif; }
+
+.modal-body {
+  font-family: "Noto Sans", sans-serif; }
+  .modal-body p {
+    margin-top: 1rem;
+    background-color: #ced4da;
+    border: 2px solid;
+    text-align: center; }
+
+.modal-header,
+.modal-footer {
+  background-color: #ced4da; }

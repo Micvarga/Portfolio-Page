@@ -186,3 +186,23 @@ u {
     color: #fff;
     font-size: x-large;
 }
+
+.modal-title {
+    font-family: $title-font;
+}
+
+.modal-body {
+    font-family: $content-font;
+
+    p {
+        margin-top: 1rem;
+        background-color: #ced4da;
+        border: 2px solid;
+        text-align: center;
+    }
+}
+
+.modal-header,
+.modal-footer {
+    background-color: #ced4da;
+}
