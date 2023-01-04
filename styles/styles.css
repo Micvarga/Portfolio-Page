@@ -221,3 +221,11 @@ footer {
 .btn-link {
   color: #149ddd;
 }
+
+#projectImg2 {
+  max-height: 30vh;
+}
+
+.portfolio-wrap {
+  text-align: center;
+}
