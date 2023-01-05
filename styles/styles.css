@@ -1,6 +1,5 @@
 u {
-  text-decoration-color: #149ddd;
-}
+  text-decoration-color: #149ddd; }
 
 .offcanvas {
   position: fixed;
@@ -10,29 +9,24 @@ u {
   width: 300px;
   padding: 0px 15px 0px 15px;
   background: #040b14;
-  overflow-y: auto;
-}
+  overflow-y: auto; }
 
 .offcanvas .profile img {
   margin: 15px auto;
   display: block;
   width: 120px;
   height: auto;
-  border: 8px solid #2c2f3f;
-}
+  border: 8px solid #2c2f3f; }
 
 .offcanvas .profile h1 {
   font-size: 24px;
   margin: 0;
   padding: 0;
   font-weight: 600;
-  text-align-last: center;
-}
-
-.offcanvas .profile h1 a {
-  color: #fff;
-  text-decoration: none;
-}
+  text-align-last: center; }
+  .offcanvas .profile h1 a {
+    color: #fff;
+    text-decoration: none; }
 
 .social-links a {
   font-size: 18px;
@@ -45,143 +39,110 @@ u {
   border-radius: 50%;
   text-align: center;
   width: 36px;
-  height: 36px;
-}
+  height: 36px; }
 
 .nav-menu {
   padding: 30px 0 0 0;
-  list-style: none;
-}
-
-.nav-menu a {
-  display: flex;
-  align-items: center;
-  padding: 12px 15px;
-  margin-bottom: 8px;
-  font-size: 15px;
-  color: #fff;
-}
-
-.nav-menu a i {
-  font-size: 24px;
-  padding-right: 8px;
-}
-
-.nav-menu .active i {
-  color: #149ddd;
-}
+  list-style: none; }
+  .nav-menu a {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #fff; }
+    .nav-menu a i {
+      font-size: 24px;
+      padding-right: 8px; }
+  .nav-menu .active i {
+    color: #149ddd; }
 
 .nav-menu * {
   margin: 0;
   padding: 0;
-  list-style: none;
-}
+  list-style: none; }
 
 .resume-item {
   padding-top: .5rem;
-  padding-bottom: .5rem;
-}
+  padding-bottom: .5rem; }
 
 .section-title h2 {
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
-  color: #d00000;
-}
+  color: #d00000; }
 
 .resume-title {
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 #skills {
-  background: #ced4da;
-}
+  background: #ced4da; }
 
 #portfolio {
-  background: #ced4da;
-}
+  background: #ced4da; }
 
 #aboutPhoto {
   margin: 15px auto;
   display: block;
   width: 400px;
   height: auto;
-  border: 8px solid #ced4da;
-}
+  border: 8px solid #ced4da; }
 
 #about h3 {
-  font-family: "Raleway", sans-serif;
-}
+  font-family: "Raleway", sans-serif; }
 
 #about p {
-  font-family: "Noto Sans", sans-serif;
-}
+  font-family: "Noto Sans", sans-serif; }
 
 #about ul {
-  font-family: "Noto Sans", sans-serif;
-}
+  font-family: "Noto Sans", sans-serif; }
 
 #skills h3 {
-  font-family: "Raleway", sans-serif;
-}
+  font-family: "Raleway", sans-serif; }
 
 #skills p {
-  font-family: "Noto Sans", sans-serif;
-}
+  font-family: "Noto Sans", sans-serif; }
 
 #resume h3 {
-  font-family: "Raleway", sans-serif;
-}
+  font-family: "Raleway", sans-serif; }
 
 #resume .resume-item {
-  font-family: "Poppins", sans-serif;
-}
+  font-family: "Poppins", sans-serif; }
 
 #portfolio h3 {
-  font-family: "Raleway", sans-serif;
-}
+  font-family: "Raleway", sans-serif; }
 
 #portfolio p {
-  font-family: "Noto Sans", sans-serif;
-}
+  font-family: "Noto Sans", sans-serif; }
 
 #contact h3 {
-  font-family: "Raleway", sans-serif;
-}
+  font-family: "Raleway", sans-serif; }
 
 #contact p {
-  font-family: "Noto Sans", sans-serif;
-}
+  font-family: "Noto Sans", sans-serif; }
 
 #bx-bx-plus {
   margin-left: auto;
-  margin-right: 0;
-}
+  margin-right: 0; }
 
 #navbarClose {
   color: #fff;
-  font-size: x-large;
-}
+  font-size: x-large; }
 
 .modal-title {
-  font-family: "Raleway", sans-serif;
-}
+  font-family: "Raleway", sans-serif; }
 
 .modal-body {
-  font-family: "Noto Sans", sans-serif;
-}
-
-.modal-body p {
-  margin-top: 1rem;
-  background-color: #ced4da;
-  border: 2px solid;
-  text-align: center;
-}
+  font-family: "Noto Sans", sans-serif; }
+  .modal-body p {
+    margin-top: 1rem;
+    background-color: #ced4da;
+    border: 2px solid;
+    text-align: center; }
 
 .modal-header,
 .modal-footer {
-  background-color: #ced4da;
-}
+  background-color: #ced4da; }
 
 #hero {
   height: 1100px;
@@ -189,29 +150,29 @@ u {
   background-image: url("/images/tacomaselfie.png");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-}
-
-#hero h1 {
-  text-align: center;
-  padding-top: 15%;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-}
+  background-repeat: no-repeat; }
+  #hero h1 {
+    text-align: center;
+    padding-top: 15%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700; }
 
 #navButton {
   background-color: #149ddd;
-  border-radius: 50%;
-}
+  border-radius: 50%; }
+
+#projectImg2 {
+  max-height: 30vh; }
+
+.portfolio-wrap {
+  text-align: center; }
 
 footer {
   background-color: #040b14;
-  margin-top: 25px;
-}
+  margin-top: 25px; }
 
 .footer-title {
-  color: #fefefe;
-}
+  color: #fefefe; }
 
 .footer-link,
 .github,
@@ -219,13 +180,10 @@ footer {
 .facebook,
 .instagram,
 .btn-link {
-  color: #149ddd;
-}
+  color: #149ddd; }
 
-#projectImg2 {
-  max-height: 30vh;
-}
+a:hover {
+  transform: scale(1.2); }
 
-.portfolio-wrap {
-  text-align: center;
-}
+button:hover {
+  transform: scale(1.2); }

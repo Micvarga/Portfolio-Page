@@ -227,3 +227,37 @@ u {
     background-color: #149ddd;
     border-radius: 50%;
 }
+
+#projectImg2 {
+    max-height: 30vh;
+}
+
+.portfolio-wrap {
+    text-align: center;
+}
+
+footer {
+    background-color: #040b14;
+    margin-top: 25px;
+}
+
+.footer-title {
+    color: #fefefe;
+}
+
+.footer-link,
+.github,
+.linkedin,
+.facebook,
+.instagram,
+.btn-link {
+    color: #149ddd;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+button:hover {
+    transform: scale(1.2);
+}
