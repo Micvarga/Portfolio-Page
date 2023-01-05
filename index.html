@@ -19,11 +19,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-
+    <!-- Emailjs scripts and functions -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
         (function () {
-            // https://dashboard.emailjs.com/admin/account
             emailjs.init('t6aJBnPEGLoexYIjb');
         })();
     </script>
@@ -31,9 +30,6 @@
         window.onload = function () {
             document.getElementById('contact-form').addEventListener('submit', function (event) {
                 event.preventDefault();
-                // generate a five digit number for the contact_number variable
-                // this.contact_number.value = Math.random() * 100000 | 0;
-                // these IDs from the previous steps
                 emailjs.sendForm('service_k314eno', 'template_e2r72ge', this)
                     .then(function (response) {
                         console.log('SUCCESS!', response.status, response.text);
@@ -47,7 +43,7 @@
             });
         }
     </script>
-
+    <!-- End of Emailjs functions and scripts -->
 </head>
 
 <body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
@@ -131,7 +127,6 @@
     <section id="hero" class="justify-content-center align-items-center">
         <div class="hero-content">
             <h1>Michael A. Vargas</h1>
-            <!-- come back to work on auto type -->
         </div>
     </section>
     <main id="main">
@@ -144,7 +139,6 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 aos-init aos-animate " data-aos="fade-right">
-                        <!-- my headshot will go here. -->
                         <img src="images/fillerselfie1.jpg" alt="My headshot" class="img-fluid" id="aboutPhoto">
                     </div>
                     <div class="col-lg-8 pt-4 pt-lg-0 content aos-init aos-animate" data-aos="fade=left">
@@ -451,23 +445,10 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-4 portfolio-item">
-                        <div class="portfolio-wrap">
-                            <img src="images/logoMain.png" alt="" class="img-fluid">
-                            <div class="portfolio links">
-                                <a href="" title="App 1" type="button" data-bs-target="#app3" data-bs-toggle="modal">
-                                    <i class="bx bx-plus"></i>
-                                </a>
-                                <a href="" title="More Details">
-                                    <i class="bx bx-link"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </section>
-        <!-- Portolio Modals -->
+        <!-- Portolio Project Modals -->
         <div class="modal fade" id="app1" tabindex="-1" aria-labelledby="app1Modal" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -511,26 +492,6 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="modal fade" id="app3" tabindex="-1" aria-labelledby="app3Modal" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="app3Modal">Strawberries BBQ</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <img class="img-fluid" src="images/strawberriesbbqsitescreenshot.png"
-                            alt="screen shot of strawberries bbq site">
-                        <p>A business page for my cousins BBQ business in the Chicago area. Made with
-                            Bootstrap and
-                            SASS.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div> -->
         <!-- End of portfolio modals -->
         <section id="contact" class="contact">
             <div class="container">
@@ -560,6 +521,9 @@
                                 <div class="form-group col-md-12 pt-4">
                                     <label for="name">Message</label>
                                     <textarea name="message" id="message" cols="35" rows="10" required></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary">Send Message</button>
                                 </div>
                             </div>
                         </form>
@@ -618,15 +582,14 @@
     <a href="" class="back-to-top d-flex align-items-center justify-content-center active">
         <i class="bi bi arrow-up-short"></i>
     </a>
-
+    <!-- Bootstrap scripts -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Boxicon scripts -->
     <script src="node_modules/boxicons/dist/boxicons.js"></script>
+    <!-- Animate on scroll scripts -->
     <script src="node_modules/aos/dist/aos.js"></script>
-
-    <script type="text/javascript" src="js/scripts.js"></script>
-
     <script>
         AOS.init();
     </script>
