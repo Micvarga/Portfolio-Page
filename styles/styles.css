@@ -53,6 +53,22 @@ u {
   padding: 0;
   list-style: none; }
 
+#hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tacomaselfie.png");
+  height: 50rem;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.hero-content h1 {
+  text-align: center;
+  padding-top: 45vh;
+  color: #fefefe;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700; }
+
 .resume-item {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem; }
@@ -73,19 +89,16 @@ u {
   background: #ced4da; }
 
 #aboutPhoto {
-  margin: 15px auto;
-  display: block;
-  width: 400px;
-  height: auto;
+  margin: 15px 0px;
   border: 8px solid #ced4da; }
 
-#about h3 {
+#about-section h3 {
   font-family: "Raleway", sans-serif; }
 
-#about p {
+#about-section p {
   font-family: "Noto Sans", sans-serif; }
 
-#about ul {
+#about-section ul {
   font-family: "Noto Sans", sans-serif; }
 
 #skills h3 {
@@ -134,19 +147,6 @@ u {
 .modal-header,
 .modal-footer {
   background-color: #ced4da; }
-
-#hero {
-  height: 1100px;
-  width: auto;
-  background-image: url("/images/tacomaselfie.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
-  #hero h1 {
-    text-align: center;
-    padding-top: 15%;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700; }
 
 #navButton {
   background-color: #149ddd;
