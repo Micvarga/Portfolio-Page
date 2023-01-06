@@ -46,76 +46,85 @@
     <!-- End of Emailjs functions and scripts -->
 </head>
 
-<body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
+<body>
 
     <!-- side navbar -->
-    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+    <div class="offcanvas  offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
         id="offcanvasNavbar" aria-labelledby="offcanvasNavLabel">
-        <div class="profile container">
-            <button class="btn float-end sticky-top" type="button" data-bs-dismiss="offcanvas" aria-label="close">
-                <i class='bx bx-x' id="navbarClose"></i>
-            </button>
-            <img src="images/fillerselfie2.jpg" alt="Head shot of me" class="img-fluid rounded circle">
-            <h1 class="text-light">
-                <a href="index.html">Michael A. Vargas</a>
-            </h1>
-            <div class="social-links mt-3 text center row">
-                <div class="col-3">
+        <div class="container-fluid">
+            <div class="row offcanvas-header">
+                <div class="col">
+                    <button class="btn float-end sticky-top" type="button" data-bs-dismiss="offcanvas"
+                        aria-label="close">
+                        <i class='bx bx-x' id="navbarClose"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="text-center row offcanvas-body">
+                <div class="col-12">
+                    <img src="images/fillerselfie2.jpg" alt="Head shot of me" class="img-fluid rounded circle">
+                    <h1 class="text-light">
+                        <a href="index.html">Michael A. Vargas</a>
+                    </h1>
+                </div>
+                <div class="col-3 social-links">
                     <a href="https:www.linkedin.com/in/michael-vargas-ba1942254" class="linkedin">
                         <i class="bx bxl-linkedin-square"></i>
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-3 social-links">
                     <a href="https://github.com/Micvarga" class="github">
                         <i class="bx bxl-github"></i>
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-3 social-links">
                     <a href="https://www.facebook.com/michael.vargas.7923" class="facebook">
                         <i class="bx bxl-facebook"></i>
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-3 social-links">
                     <a href="https://www.instagram.com/tenacious_ramen/">
                         <i class="bx bxl-instagram"></i>
                     </a>
                 </div>
+                <div class="col-12">
+                    <nav id="navbar" class="nav-menu navbar">
+                        <ul>
+                            <li class="nav-item">
+                                <a href="#hero" class="nav-link scrollto active" onclick="closeOffcanvas()">
+                                    <i class="bx bx-home"></i>
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link scrollto" onclick="closeOffcanvas()">
+                                    <i class="bx bx-user"></i>
+                                    <span>About</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#resume" class="nav-link scrollto" onclick="closeOffcanvas()">
+                                    <i class="bx bx-file-blank"></i>
+                                    <span>Resume</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#portfolio" class="nav-link scrollto" onclick="closeOffcanvas()">
+                                    <i class="bx bx-book-content"></i>
+                                    <span>Portfolio</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link scrollto" onclick="closeOffcanvas()">
+                                    <i class="bx bx-envelope"></i>
+                                    <span>Contact</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
-        <nav id="navbar" class="nav-menu navbar">
-            <ul>
-                <li class="nav-item">
-                    <a href="#hero" class="nav-link scrollto active" onclick="closeOffcanvas()">
-                        <i class="bx bx-home"></i>
-                        <span>Home</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link scrollto" onclick="closeOffcanvas()">
-                        <i class="bx bx-user"></i>
-                        <span>About</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#resume" class="nav-link scrollto" onclick="closeOffcanvas()">
-                        <i class="bx bx-file-blank"></i>
-                        <span>Resume</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#portfolio" class="nav-link scrollto" onclick="closeOffcanvas()">
-                        <i class="bx bx-book-content"></i>
-                        <span>Portfolio</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link scrollto" onclick="closeOffcanvas()">
-                        <i class="bx bx-envelope"></i>
-                        <span>Contact</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
     </div>
     <!-- side navbar toggle button -->
     <button class="btn float-end sticky-top" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"

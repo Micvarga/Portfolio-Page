@@ -2,29 +2,21 @@ u {
   text-decoration-color: #149ddd; }
 
 .offcanvas {
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 300px;
-  padding: 0px 15px 0px 15px;
   background: #040b14;
-  overflow-y: auto; }
+  --bs-offcanvas-width: min(95vh, 250px) !important; }
 
-.offcanvas .profile img {
-  margin: 15px auto;
-  display: block;
+.offcanvas img {
   width: 120px;
   height: auto;
-  border: 8px solid #2c2f3f; }
+  border: 8px solid #149ddd; }
 
-.offcanvas .profile h1 {
+.offcanvas h1 {
   font-size: 24px;
-  margin: 0;
+  margin: 15px 0px;
   padding: 0;
   font-weight: 600;
-  text-align-last: center; }
-  .offcanvas .profile h1 a {
+  text-decoration: underline; }
+  .offcanvas h1 a {
     color: #fff;
     text-decoration: none; }
 
@@ -35,7 +27,6 @@ u {
   color: #fff;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 28px;
   border-radius: 50%;
   text-align: center;
   width: 36px;
@@ -63,8 +54,8 @@ u {
   list-style: none; }
 
 .resume-item {
-  padding-top: .5rem;
-  padding-bottom: .5rem; }
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; }
 
 .section-title h2 {
   text-align: center;
