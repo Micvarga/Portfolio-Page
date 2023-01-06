@@ -89,7 +89,7 @@ u {
   #skills-section p {
     font-family: "Noto Sans", sans-serif; }
 
-#portfolio {
+#portfolio-section {
   background: #ced4da; }
 
 #aboutPhoto {
@@ -111,10 +111,10 @@ u {
 #resume-section .resume-item {
   font-family: "Poppins", sans-serif; }
 
-#portfolio h3 {
+#portfolio-section h3 {
   font-family: "Raleway", sans-serif; }
 
-#portfolio p {
+#portfolio-section p {
   font-family: "Noto Sans", sans-serif; }
 
 #contact h3 {
