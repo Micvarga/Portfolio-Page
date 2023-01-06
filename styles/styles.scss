@@ -117,8 +117,15 @@ u {
   text-decoration: underline;
 }
 
-#skills {
+#skills-section {
   background: #ced4da;
+  h3 {
+    font-family: $title-font;
+  }
+
+  p {
+    font-family: $content-font;
+  }
 }
 
 #portfolio {
@@ -140,16 +147,6 @@ u {
   }
 
   ul {
-    font-family: $content-font;
-  }
-}
-
-#skills {
-  h3 {
-    font-family: $title-font;
-  }
-
-  p {
     font-family: $content-font;
   }
 }

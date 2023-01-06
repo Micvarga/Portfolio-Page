@@ -82,8 +82,12 @@ u {
 .resume-title {
   text-decoration: underline; }
 
-#skills {
+#skills-section {
   background: #ced4da; }
+  #skills-section h3 {
+    font-family: "Raleway", sans-serif; }
+  #skills-section p {
+    font-family: "Noto Sans", sans-serif; }
 
 #portfolio {
   background: #ced4da; }
@@ -99,12 +103,6 @@ u {
   font-family: "Noto Sans", sans-serif; }
 
 #about-section ul {
-  font-family: "Noto Sans", sans-serif; }
-
-#skills h3 {
-  font-family: "Raleway", sans-serif; }
-
-#skills p {
   font-family: "Noto Sans", sans-serif; }
 
 #resume h3 {
