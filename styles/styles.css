@@ -62,12 +62,19 @@ u {
   background-size: cover;
   position: relative; }
 
-.hero-content h1 {
+.hero-content {
   text-align: center;
-  padding-top: 45vh;
-  color: #fefefe;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700; }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fefefe; }
+  .hero-content h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700; }
+  .hero-content h3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700; }
 
 .resume-item {
   padding-top: 0.5rem;
