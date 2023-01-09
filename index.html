@@ -19,30 +19,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <!-- Emailjs scripts and functions -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function () {
-            emailjs.init('t6aJBnPEGLoexYIjb');
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function () {
-            document.getElementById('contact-form').addEventListener('submit', function (event) {
-                event.preventDefault();
-                emailjs.sendForm('service_k314eno', 'template_e2r72ge', this)
-                    .then(function (response) {
-                        console.log('SUCCESS!', response.status, response.text);
-                        document.getElementById("contact-form").reset();
-                        const statusDiv = document.createElement('div');
-                        statusDiv.innerHTML = 'Success! Your Message has been sent!';
-                        document.getElementById('contact-form').appendChild(statusDiv);
-                    }, function (error) {
-                        console.log('FAILED...', error);
-                    });
-            });
-        }
-    </script>
+
+
     <!-- End of Emailjs functions and scripts -->
 </head>
 
@@ -610,6 +588,10 @@
     <script>
         AOS.init();
     </script>
+
+    <!-- Emailjs scripts and functions -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
     <script src="scripts/index.js"></script>
 </body>
 
