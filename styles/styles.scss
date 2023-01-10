@@ -7,7 +7,7 @@ u {
 }
 
 .offcanvas {
-  background: #040b14;
+  background: #171717;
   --bs-offcanvas-width: min(95vh, 250px) !important;
 }
 
@@ -15,7 +15,7 @@ u {
   img {
     width: 120px;
     height: auto;
-    border: 8px solid #149ddd;
+    border: 8px solid #e2e2e2;
   }
 
   h1 {
@@ -26,7 +26,7 @@ u {
     text-decoration: underline;
 
     a {
-      color: #fff;
+      color: #e2e2e2;
       text-decoration: none;
     }
   }
@@ -36,8 +36,8 @@ u {
   a {
     font-size: 18px;
     display: inline-block;
-    background: #212431;
-    color: #fff;
+    background: #171717;
+    color: #fefefe;
     line-height: 1;
     padding: 8px 0;
     border-radius: 50%;
@@ -57,7 +57,7 @@ u {
     padding: 12px 15px;
     margin-bottom: 8px;
     font-size: 15px;
-    color: #fff;
+    color: #e2e2e2;
 
     i {
       font-size: 24px;
@@ -107,7 +107,7 @@ u {
 }
 
 #skills-section {
-  background: #ced4da;
+  background: #e2e2e2;
   h3 {
     font-family: $title-font;
   }
@@ -118,12 +118,12 @@ u {
 }
 
 #portfolio-section {
-  background: #ced4da;
+  background: #e2e2e2;
 }
 
 #aboutPhoto {
   margin: 15px 0px;
-  border: 8px solid #ced4da;
+  border: 8px solid #e2e2e2;
 }
 
 #about-section {
@@ -176,7 +176,7 @@ u {
 }
 
 #navbarClose {
-  color: #fff;
+  color: #e2e2e2;
   font-size: x-large;
 }
 
@@ -189,7 +189,7 @@ u {
 
   p {
     margin-top: 1rem;
-    background-color: #ced4da;
+    background-color: #e2e2e2;
     border: 2px solid;
     text-align: center;
   }
@@ -197,7 +197,7 @@ u {
 
 .modal-header,
 .modal-footer {
-  background-color: #ced4da;
+  background-color: #e2e2e2;
 }
 
 #navButton {
@@ -214,12 +214,16 @@ u {
 }
 
 footer {
-  background-color: #040b14;
+  background-color: #171717;
   margin-top: 25px;
 }
 
 .footer-title {
-  color: #fefefe;
+  color: #e2e2e2;
+}
+
+.footer-links-container {
+  padding-left: 60px;
 }
 
 .footer-link,
@@ -231,8 +235,14 @@ footer {
   color: #149ddd;
 }
 
+.nav-item,
+a:hover {
+  color: #149ddd !important;
+}
+
 a:hover {
   transform: scale(1.2);
+  color: #149ddd;
 }
 
 button:hover {

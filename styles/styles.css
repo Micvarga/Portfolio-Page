@@ -2,13 +2,13 @@ u {
   text-decoration-color: #149ddd; }
 
 .offcanvas {
-  background: #040b14;
+  background: #171717;
   --bs-offcanvas-width: min(95vh, 250px) !important; }
 
 .offcanvas img {
   width: 120px;
   height: auto;
-  border: 8px solid #149ddd; }
+  border: 8px solid #e2e2e2; }
 
 .offcanvas h1 {
   font-size: 24px;
@@ -17,14 +17,14 @@ u {
   font-weight: 600;
   text-decoration: underline; }
   .offcanvas h1 a {
-    color: #fff;
+    color: #e2e2e2;
     text-decoration: none; }
 
 .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
-  color: #fff;
+  background: #171717;
+  color: #fefefe;
   line-height: 1;
   padding: 8px 0;
   border-radius: 50%;
@@ -41,7 +41,7 @@ u {
     padding: 12px 15px;
     margin-bottom: 8px;
     font-size: 15px;
-    color: #fff; }
+    color: #e2e2e2; }
     .nav-menu a i {
       font-size: 24px;
       padding-right: 8px; }
@@ -76,18 +76,18 @@ u {
   text-decoration: underline; }
 
 #skills-section {
-  background: #ced4da; }
+  background: #e2e2e2; }
   #skills-section h3 {
     font-family: "Raleway", sans-serif; }
   #skills-section p {
     font-family: "Noto Sans", sans-serif; }
 
 #portfolio-section {
-  background: #ced4da; }
+  background: #e2e2e2; }
 
 #aboutPhoto {
   margin: 15px 0px;
-  border: 8px solid #ced4da; }
+  border: 8px solid #e2e2e2; }
 
 #about-section h3 {
   font-family: "Raleway", sans-serif; }
@@ -121,7 +121,7 @@ u {
   margin-right: 0; }
 
 #navbarClose {
-  color: #fff;
+  color: #e2e2e2;
   font-size: x-large; }
 
 .modal-title {
@@ -131,13 +131,13 @@ u {
   font-family: "Noto Sans", sans-serif; }
   .modal-body p {
     margin-top: 1rem;
-    background-color: #ced4da;
+    background-color: #e2e2e2;
     border: 2px solid;
     text-align: center; }
 
 .modal-header,
 .modal-footer {
-  background-color: #ced4da; }
+  background-color: #e2e2e2; }
 
 #navButton {
   background-color: #149ddd;
@@ -150,11 +150,14 @@ u {
   text-align: center; }
 
 footer {
-  background-color: #040b14;
+  background-color: #171717;
   margin-top: 25px; }
 
 .footer-title {
-  color: #fefefe; }
+  color: #e2e2e2; }
+
+.footer-links-container {
+  padding-left: 60px; }
 
 .footer-link,
 .github,
@@ -164,8 +167,13 @@ footer {
 .btn-link {
   color: #149ddd; }
 
+.nav-item,
 a:hover {
-  transform: scale(1.2); }
+  color: #149ddd !important; }
+
+a:hover {
+  transform: scale(1.2);
+  color: #149ddd; }
 
 button:hover {
   transform: scale(1.2); }
