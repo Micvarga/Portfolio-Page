@@ -54,27 +54,13 @@ u {
   list-style: none; }
 
 #hero-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tacomaselfie.png");
-  height: 50rem;
-  width: auto;
+  background-image: url("../images/Striking Web Designs-logos.jpeg");
+  height: 40vh;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; }
-
-.hero-content {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fefefe; }
-  .hero-content h1 {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700; }
-  .hero-content h3 {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700; }
 
 .resume-item {
   padding-top: 0.5rem;
