@@ -2,19 +2,19 @@
   "name": "myportfoliopage",
   "version": "1.0.0",
   "description": "website for my web dev portfolio",
-  "main": "index.html",
+  "source": "src/index.html",
   "scripts": {
-    "lite": "lite-server",
-    "scss": "node-sass -o styles/ styles/",
+    "parcel": "parcel",
+    "scss": "node-sass -o src/styles/ src/styles/",
     "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch:scss": "onchange \"styles/*.scss\" -- npm run scss",
-    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
+    "watch:scss": "onchange \"src/styles/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run parcel\"",
     "copyfonts": "copyfiles -f node_modules/boxicons/fonts/*dist/fonts",
     "imagemin": "imagemin images/* -o dist/images",
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
     "clean": "rimraf dist",
-    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
+    "build": "parcel build --dist-dir public"
   },
   "author": "Michael A. Vargas",
   "license": "ISC",
@@ -23,6 +23,7 @@
     "imagemin-cli": "^7.0.0",
     "onchange": "^7.1.0",
     "parallelshell": "3.0.1",
+    "parcel": "^2.8.2",
     "rimraf": "^3.0.2",
     "usemin-cli": "^0.6.0"
   },
