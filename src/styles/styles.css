@@ -3,7 +3,8 @@ u {
 
 .offcanvas {
   background: #171717;
-  --bs-offcanvas-width: min(95vh, 250px) !important; }
+  --bs-offcanvas-width: min(95vh, 250px) !important;
+  overflow-y: scroll !important; }
 
 .offcanvas img {
   border: 8px solid #e2e2e2; }
@@ -37,7 +38,6 @@ u {
     display: flex;
     align-items: center;
     padding: 12px 15px;
-    margin-bottom: 8px;
     font-size: 15px;
     color: #e2e2e2; }
     .nav-menu a i {
