@@ -13,8 +13,6 @@ u {
 
 .offcanvas {
   img {
-    width: 120px;
-    height: auto;
     border: 8px solid #e2e2e2;
   }
 
@@ -247,6 +245,24 @@ a:hover {
 
 button:hover {
   transform: scale(1.2);
+}
+
+@media screen and (min-width: 568px) {
+  .offcanvas {
+    --bs-offcanvas-width: min(95vh, 350px) !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .offcanvas {
+    --bs-offcanvas-width: min(95vh, 450px) !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .offcanvas {
+    --bs-offcanvas-width: min(95vh, 550px) !important;
+  }
 }
 
 @media screen and (min-width: 1300px) {
